@@ -118,19 +118,19 @@ int solution(int K, int M, vector<int> &A)
         return max;
     }
     
-    while( min < max )
+    // do binary search
+    while( min <= max )
     {
         int mid = ( min + max ) / 2;
         
         if( blocksEnough( A, mid, K ) )
         {
-            max-=1;
+            max = mid - 1;
         }
         else
         {
-            min+=1;
+            min = mid + 1;
         }
-    
     }
 
     return min;
