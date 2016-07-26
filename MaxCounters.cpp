@@ -64,7 +64,6 @@
 
 #include <iostream>
 #include <vector>
-#include <algorithm>
 
 using namespace std;
 
@@ -88,6 +87,8 @@ void setCounters( vector<int> &C, int N, int num )
 vector<int> solution(int N, vector<int> &A) {
     
     vector<int> counters;
+    int maximum = 0;
+    int current_max = 0;
 
     for( int i = 0; i < N; i++ )
     {
@@ -98,16 +99,26 @@ vector<int> solution(int N, vector<int> &A) {
     {
         if( A[i] == N+1 )
         {
-            int max = *max_element( counters.begin(), counters.end() );
-            
-            setCounters( counters, N, max );
+            maximum = current_max;
         }
         else
         {
             int idx = A[i] - 1;
-            counters[idx]++;
+            // Compare value of counter with the maximum.
+            // If it is less than maximum, we should add it to maximum first then increase one,
+            // Otherwise, just increase one on the counter.
+            counters[idx] = ( maximum > counters[idx] ) ? maximum+1 : counters[idx]+1;
+            
+            // Maintain current maximum
+            current_max = max( current_max, counters[idx] );
         }
     } // end for
+    
+    for( int i = 0; i < N; i++ )
+    {
+        counters[i] = max( counters[i], maximum );
+    }
+
     return counters;
 }
 
@@ -119,7 +130,7 @@ int main()
     
     vector<int> C;
     C = solution( 5, A );
-    printVector(C);
+    printVector(C); // 3 2 2 4 2
 
     return 1;
 }
