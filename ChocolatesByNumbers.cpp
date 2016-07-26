@@ -40,13 +40,9 @@ int gcd( int a, int b )
     {
         return a;
     }
-    else if( a > b )
-    {
-        return gcd( b , a % b );
-    }
     else
     {
-        return gcd( a, b % a );
+        return gcd( b, a % b );
     }
 
 }
@@ -58,9 +54,10 @@ int solution(int N, int M) {
 
 int main()
 {
-    cout << solution( 1, 2 ) << endl;
-    cout << solution( 5, 1 ) << endl;
-    cout << solution( 947853, 4453 ) <<endl;
+    cout << solution( 1, 2 ) << endl; // 1
+    cout << solution( 10, 4 ) << endl; // 5
+    cout << solution( 5, 1 ) << endl;  // 5
+    cout << solution( 947853, 4453 ) <<endl; // 947853
     
     return 1;
 }
