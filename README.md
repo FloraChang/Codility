@@ -12,9 +12,9 @@
 - [x] OddOccurrencesInArray
 
 **Time Complexity**
-- [ ] FrogJmp
 - [x] TapeEquilibruim
-- [ ] PermMissingElem
+- [x] FrogJmp
+- [x] PermMissingElem
 
 **Counting Elements**
 - [ ] FrogRiverOne
