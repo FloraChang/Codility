@@ -86,7 +86,7 @@
 - [ ] MinAbsSum
 
 **Indeed Prime 2016 Challenge**
-- [ ] DwarfsRafting
+- [x] DwarfsRafting *(uncompleted)*
 - [ ] RectangleBuilderGreaterArea
 - [ ] HilbertMaze
 - [ ] TreeProduct
