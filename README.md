@@ -1,97 +1,97 @@
 # Codility
-Codility Online Lessons
+*Codility Online Lessons*
 
-Demo Test
+**Demo Test**
 - [x] Equi
 
-Iterations
+**Iterations**
 - [x] BinaryGap 
 
-Arrays
+**Arrays**
 - [ ] CyclicRotation
 - [x] OddOccurrencesInArray
 
-Time Complexity
+**Time Complexity**
 - [ ] FrogJmp
 - [x] TapeEquilibruim
 - [ ] PermMissingElem
 
-Counting Elements
+**Counting Elements**
 - [ ] FrogRiverOne
 - [ ] PermCheck
 - [ ] MissingInteger
 - [x] MaxCounters
 
-PrefixSums
+**Prefix Sums**
 - [ ] Passing Cars
 - [ ] CountDiv
 - [ ] GenomicRangeQuery
 - [ ] MinAvgTwoSlice
 
-Sorting
+**Sorting**
 - [x] Triangle
 - [ ] Distinct
 - [x] MaxProductOfThree
 - [ ] NumberOfDiscIntersections
 
-Stacks and Queues
+**Stacks and Queues**
 - [x] Fish
 - [x] Brackets
 - [x] StoneWall
 - [ ] Nesting
 
-Leader
+**Leader**
 - [ ] EquiLeader
 - [ ] Donimator
 
-Maximum slice problem
+**Maximum Slice Problem**
 - [ ] MaxProfit
 - [x] MaxDoubleSliceSum
 - [ ] MaxSliceSum
 
-Prime and Composite Numbers
+**Prime and Composite Numbers**
 - [ ] MinPerimeterRectangle
 - [ ] CountFactors
 - [ ] Peaks
 - [x] Flags
 
-Sieve of Eratosthenes
+**Sieve of Eratosthenes**
 - [ ] CountSemiprimes
 - [ ] CountNonDivisible
 
-Eucliedean algorithm
+**Eucliedean Algorithm**
 - [x] ChocolatesByNumbers
 - [ ] CommonPrimeDivisors
 
-Fibonnaci numbers
+**Fibonnaci Numbers**
 - [ ] FibFrog
 - [ ] Ladder
 
-Binary Search Algorithm
+**Binary Search Algorithm**
 - [x] MinMaxDivision
 - [ ] NailingPlanks
 
-Caterpillar Method
+**Caterpillar Method**
 - [x] AbsDistinct
 - [ ] CountDistinctSlices
 - [x] CountTriangles
 - [x] MinAbsSumOfTwo
 
-Greedy algorithms
+**Greedy Algorithms**
 - [x] MaxNonoverlappingSegments
 - [x] TieRopes
 
-Dynamic programming
+**Dynamic Programming**
 - [x] NumberSolitaire
 - [ ] MinAbsSum
 
-Indeed Prime 2016 Challenge
+**Indeed Prime 2016 Challenge**
 - [ ] DwarfsRafting
 - [ ] RectangleBuilderGreaterArea
 - [ ] HilbertMaze
 - [ ] TreeProduct
 
-Future Training
+**Future Training**
 - [ ] SqlSum
 - [x] TreeHeight
 - [ ] StrSymmetryPoint
