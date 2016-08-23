@@ -65,7 +65,7 @@
 
 **Fibonnaci Numbers**
 - [ ] FibFrog
-- [ ] Ladder
+- [x] Ladder *(C++ uncompleted)*
 
 **Binary Search Algorithm**
 - [x] MinMaxDivision
