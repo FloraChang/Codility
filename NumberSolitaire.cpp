@@ -53,31 +53,6 @@
 #include <vector>
 using namespace std;
 
-int solution(vector<int> &A);
-void printArray( int a[], int size );
-
-int main()
-{
-    vector<int> A;
-    A.push_back(1);
-    A.push_back(-2);
-    A.push_back(0);
-    A.push_back(9);
-    A.push_back(-1);
-    A.push_back(-2);
-    
-    
-    for( int i = 0; i < A.size(); i++ )
-    {
-        cout<<A[i]<<" ";
-    }
-    cout<<endl;
-    
-    int ans =solution( A );
-    cout << "answer = " << ans << endl;
-    return 1;
-}
-
 int solution(vector<int> &A) {
     int size = (int)A.size();
     int *score = new int[size];
@@ -107,22 +82,20 @@ int solution(vector<int> &A) {
             {
                 optimum = score[ current - i ];
             }
-
         }
-    
+        
         score[ current ] = optimum + A[current];
         current++;
-        //printArray( score, size );
     }
     
     return score[ goal ];
 }
 
-void printArray( int a[], int size )
+int main()
 {
-    for( int i = 0; i < size; i++ )
-    {
-        cout<< a[i] << " ";
-    }
-    cout << endl;
+    vector<int> A = { 1, -2, 0, 9, -1, -2 };
+    
+    cout << solution( A ) << endl; // 8
+
+    return 1;
 }
