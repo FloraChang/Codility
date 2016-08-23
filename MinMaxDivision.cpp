@@ -59,14 +59,12 @@
 #include <iostream>
 using namespace std;
 
-void printVector( vector<int> &A );
-
 bool blocksEnough( vector<int> &A, int max, int K )
 {
     int block = 1;
     int sum = 0;
     int size = (int)A.size();
-
+    
     // check if the blocks are enough (less than or equal to K)
     for( int i = 0; i < size ; i++ )
     {
@@ -98,14 +96,14 @@ int solution(int K, int M, vector<int> &A)
     int min = 0;
     int size = (int)A.size();
     
-    // get maximum, which is the upperbound
+    // get the sum of vector, which is set to the upperbound
     vector<int>::iterator it;
     for( it = A.begin(); it != A.end(); it++ )
     {
         max += *it;
     }
     
-    // get minimun value in the vector, which is also the lowerbound
+    // get maximum value in the vector, which is set to the lowerbound
     min = *max_element( A.begin(), A.end() );
     
     // handle special case
@@ -132,35 +130,16 @@ int solution(int K, int M, vector<int> &A)
             min = mid + 1;
         }
     }
-
+    
     return min;
 }
 
 int main()
 {
-    int numbers[7] = { 2, 1, 5, 1, 2, 2, 2 };
-    vector<int> A;
-    
-    for( int i = 0; i < 7; i++ )
-    {
-        A.push_back( numbers[i]) ;
-    }
-    
-    printVector(A);
+    vector<int> A = { 2, 1, 5, 1, 2, 2, 2 };
     
     int K = 3;
     int M = 5;
     
-    int sol = solution( K, M, A);
-    cout<<"MinMaxDivision = " << sol << endl;
-}
-
-void printVector( vector<int> &A )
-{
-    vector<int>::iterator it;
-    for( it = A.begin(); it != A.end(); it++ )
-    {
-        cout << *it <<" ";
-    }
-    cout << endl;
+    cout<<"MinMaxDivision = " << solution( K, M, A ) << endl; // 6
 }
