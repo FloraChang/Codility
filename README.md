@@ -29,10 +29,10 @@
 - [ ] MinAvgTwoSlice
 
 **Sorting**
-- [x] Triangle
-- [ ] Distinct
+- [x] Distinct
 - [x] MaxProductOfThree
-- [ ] NumberOfDiscIntersections
+- [x] Triangle
+- [ ] NumberOfDiscIntersections *(on going...)*
 
 **Stacks and Queues**
 - [x] Fish
