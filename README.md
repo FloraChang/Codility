@@ -8,7 +8,7 @@
 - [x] BinaryGap 
 
 **Arrays**
-- [ ] CyclicRotation
+- [x] CyclicRotation
 - [x] OddOccurrencesInArray
 
 **Time Complexity**
@@ -17,9 +17,9 @@
 - [x] PermMissingElem
 
 **Counting Elements**
+- [x] PermCheck
+- [x] MissingInteger
 - [ ] FrogRiverOne
-- [ ] PermCheck
-- [ ] MissingInteger
 - [x] MaxCounters
 
 **Prefix Sums**
@@ -41,7 +41,7 @@
 - [ ] Nesting
 
 **Leader**
-- [ ] EquiLeader
+- [x] EquiLeader
 - [ ] Donimator
 
 **Maximum Slice Problem**
