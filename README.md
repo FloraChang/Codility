@@ -19,7 +19,7 @@
 **Counting Elements**
 - [x] PermCheck
 - [x] MissingInteger
-- [ ] FrogRiverOne
+- [x] FrogRiverOne
 - [x] MaxCounters
 
 **Prefix Sums**
@@ -73,7 +73,7 @@
 
 **Caterpillar Method**
 - [x] AbsDistinct
-- [ ] CountDistinctSlices
+- [x] CountDistinctSlices
 - [x] CountTriangles
 - [x] MinAbsSumOfTwo
 
