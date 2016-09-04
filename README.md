@@ -23,8 +23,8 @@
 - [x] MaxCounters
 
 **Prefix Sums**
-- [ ] Passing Cars
-- [ ] CountDiv
+- [x] Passing Cars
+- [x] CountDiv
 - [ ] GenomicRangeQuery
 - [ ] MinAvgTwoSlice
 
